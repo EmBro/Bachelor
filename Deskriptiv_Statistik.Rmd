@@ -2,7 +2,7 @@
 title: "wtp - deskriptiv statistik"
 author: "Emil Brohus & Nicolai Haslund"
 date: "17. maj 2015"
-output: word_document
+output: html_document
 ---
 
 # Deskriptiv statistik af positiv betalingsvillighed
@@ -14,8 +14,7 @@ Scriptet er konstrueret således, at data materiale bliver hentet direkte fra gi
 ## Data indlæses
 
 ```{r}
-wtp = read.table(url('https://raw.githubusercontent.com/EmBro/Bachelor/master/wtp.csv',
-                      method = 'libcurl'), dec = ',')
+wtp = read.table(url('https://raw.githubusercontent.com/EmBro/Bachelor/master/wtp.csv'), dec = ',')
 
 wtp = as.matrix(wtp)
 
