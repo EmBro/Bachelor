@@ -2,7 +2,7 @@
 title: "wtp - deskriptiv statistik"
 author: "Emil Brohus & Nicolai Haslund"
 date: "17. maj 2015"
-output: html_document
+output: word_document
 ---
 
 # Deskriptiv statistik af positiv betalingsvillighed
